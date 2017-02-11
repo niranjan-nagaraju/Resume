@@ -218,7 +218,7 @@ Bangalore - 560038 & \textit{E-mail:} \href{mailto:niranjan.nagaraju@gmail.com}{
 %
     \textbf{Visvesvaraya Technological University}, PES Institute of Technology, Bangalore \vspace{1mm}\\%
     \textsl{Bachelor of Engineering}, Computer Science \hfill \textbf{2002 -- 2006} \vspace{1mm}\\%
-	Aggregate: 73.3 \% \hfill \vspace{0mm}\\\vspace{-4.5mm}%
+	% Aggregate: 73.3 \% \hfill \vspace{0mm}\\\vspace{-4.5mm}%
 
 
 %__________________________________________________________________________________________________________________
@@ -249,7 +249,7 @@ Bangalore - 560038 & \textit{E-mail:} \href{mailto:niranjan.nagaraju@gmail.com}{
 	\begin{itemize}
 		\item Switched IPS' security database backend from Berkeley-DB to SQLite3.%
                 \item Integrated Intel's pattern matching engine, `Hyperscan' into SRX-IPS.%
-		\item Was responsible for porting IPS and SSL forward proxy modules to Intel/Linux-based NG-SRX devices.%
+		\item Ported IPS and SSL forward-proxy modules to Intel/Linux-based Next-gen SRX devices.%
 		\item Responsible for fixing high-priority customer issues. \vspace{0mm}\\\vspace{1mm}%
 	\end{itemize}
 
@@ -263,10 +263,11 @@ Bangalore - 560038 & \textit{E-mail:} \href{mailto:niranjan.nagaraju@gmail.com}{
 	\textsl{RSA Access Manager (AxM) Web Agents}
 	\begin{itemize}
 		\item Implemented features for Intersite Single Sign-on (ISSO).%
-		\item Security audit of AxM Web agents using w3af/webscarab, Fortify and fixed critical security issues. %		
+		\item Security audit of AxM Web agents using w3af/webscarab, Fortify and fixed critical security issues. %
 		\item Worked on extending AxM Web Agents to support Email-based RSA Adaptive Authentication. \vspace{0mm}\\\vspace{1mm}%		
 	\end{itemize}
 
+        % \pagebreak % onto page 2
 
 	%__________________________________________________________________________________________________________________
 	% Narus Networks
@@ -276,22 +277,22 @@ Bangalore - 560038 & \textit{E-mail:} \href{mailto:niranjan.nagaraju@gmail.com}{
 	\blankline
 
 	\begin{itemize}
-	  \item [\textsl{Multi-threading processing layer for NarusInsight}]
-		\item Worked on the development of an actor-based concurrent programming language to introduce multi-threaded efficiency in the processing layer.%
-		\item Profiling and performance tuning (Oprofile and Valgrind) %
+	  \item [\textsl{Multi-threading processing layer, `Logicserver', for NarusInsight}]
+		\item Worked on the development of an actor-based concurrent programming language for a redesigned NarusInsight's processing layer, `Logicserver'. %
+		\item Profiling and performance tuning (using Oprofile and Valgrind) of the redesigned Logicserver component. %
 	\end{itemize}
 
 	\blankline
 	
 	\begin{itemize}
-          \item [\textsl{SQL Loader}]
+          \item [\textsl{SQL Loader, NarusInsight}]
 		\item Developed a Narus component to load capture layer metadata into an SQL database using unixODBC library. %
 	\end{itemize}
 
 	\blankline
 
 	\begin{itemize}
-	  \item [\textsl{Packet Loader}]
+	  \item [\textsl{Packet Loader, NarusInsight}]
 		\item Developed a Narus component to analyze capture layer events/data based on user-configured targets and write the matching packets to PCAP and ETSI compliant Metadata files. \vspace{0mm}\\\vspace{1mm}%
 	\end{itemize} 
  
@@ -305,65 +306,34 @@ Bangalore - 560038 & \textit{E-mail:} \href{mailto:niranjan.nagaraju@gmail.com}{
 	
 	\textsl{TOE (TCP/IPv4 Offload Engine)}
 	\begin{itemize}
-		\item Developed a network device driver interface to load the PCI-e based hardware stack. %
-		\item Design and implementation of a dual stack architecture for the TOE stack to coexist with the Linux TCP/IP stack. %
+		\item Implemented a pseudo network device driver for a PCI-e based FGPA device emulating the TCP/IP stack in hardware. %
+		\item Design and implementation of a dual-stack architecture that enables switching between TOE and the Linux TCP/IP stack. %
 	\end{itemize}
  
  	\blankline
  
 	\textsl{TIP6E (TCP/IPv6 Offload Engine)}
 	\begin{itemize}
-		\item Designed and implemented ICMPv6 NDP (Neighbor Discovery Protocol) and MLD (Multicast Listener Discovery) in software to be integrated with the rest of the IPv6 stack in the TIP6E hardware FPGA. %
+		\item Implemented ICMPv6 NDP (Neighbor Discovery Protocol) and MLD (Multicast Listener Discovery) in software to be integrated with the rest of the IPv6 stack in the TIP6E hardware FPGA. %
 	\end{itemize}
 	
 	\blankline
-
-	\textsl{RPR (Resilient Packet Ring)}
-	\begin{itemize}
-		\item Implemented IOCTL interfaces for configuring the RPR stack in hardware. (RPR is a dual-ring based MAN (Metropolitan Area Network) technology). %
-	\end{itemize}
 
 
 %______________________________________________________________________________________________________________________
 % Awards and Recognitions
 \section{Awards and Recognitions}
 %
-\textsl{Juniper Networks} \hfill \textsl{April 2016}\\%
+\textsl{Juniper Networks} \hfill \textbf{April 2016}\\%
 Received a `Department Spotlight Award' at Juniper Networks for resolving IPS accuracy issues reported during NSS Labs' Data-center tests on Juniper's SRX NGFW, in a very narrow time-frame.
 
 \blankline
 
-\textsl{Juniper Networks} \hfill \textsl{May 2015}\\%
+\textsl{Juniper Networks} \hfill \textbf{May 2015}\\%
 Our team (of three people) won 4th place at a BU-level `Innovation Day' contest for our idea titled, `Vulnerability Correlation for IPS'.
-The idea was to use the online CVE(Common Vulnerabilities and Exposures) database combined with a network information (machines, services running, etc) to improve SRX-IPS attack detection.
+The idea was to use the online CVE(Common Vulnerabilities and Exposures) database combined with some network information (machines, services running, etc) to improve SRX-IPS attack detection.
 
 
-
-
-%______________________________________________________________________________________________________________________
-% Internship
-\section{Internship} 
-%
-\textbf{Hewlett Packard}, Bangalore \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Gelato Vanilla Project/Apache} \hfill \textbf{February 2006 -- April 2006}\\%
-Benchmarking and profiling the performance of Apache server on Linux/Itanium.
-
-
-%______________________________________________________________________________________________________________________
-% Academic Projects
-\section{Academic Projects}
-%
-\textsl{S.M.A.R.T. Downloader}
-\begin{itemize}
-	\item A download Manager written in C\#.net.
-\end{itemize}
-
-\blankline
-
-\textsl{Illuminati}
-\begin{itemize}
-	\item An MS Paint like graphics editor program written in C/GTK+ on Linux.
-\end{itemize}
 
 
 %______________________________________________________________________________________________________________________
